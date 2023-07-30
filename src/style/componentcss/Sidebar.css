@@ -1,0 +1,98 @@
+.Sidebar {
+    width: 150px;
+    height: 100%;
+    background-color: #ffff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.Side_Parentimg {
+    width: 100%;
+    text-align: center;
+    color: red;
+    padding: 15px 0px;
+}
+
+.Side_logoname {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.Side_block {
+    color: #000000;
+}
+
+.Side_Image {
+    width: 120px !important;
+    /* height: 70x !important; */
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.Side_img {
+    width: 50%;
+    height: 100%;
+}
+
+.Side_Icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.Side_Span {
+    margin: 3px 0px;
+}
+
+.Side_widthed {
+    width: 64px;
+    /* height: 40px; */
+}
+
+.Side_width {
+    width: 40px;
+}
+
+.Side_widtheds {
+    width: 45px;
+}
+
+
+@media screen and (min-width:300px) and (max-width:768px) {
+    
+    .Sidebar {
+        width: 22%;
+    }
+
+    .Side_Parentimg {
+        padding: 10px 0px;
+    }
+
+    .Side_Image {
+        width: 70px !important;
+    }
+
+    .Side_logoname {
+        font-size: 15px;
+    }
+
+    .Side_widthed {
+        width: 55px;
+        /* height: 40px; */
+    }
+    
+    .Side_width {
+        width: 31px;
+    }
+    
+    .Side_widtheds {
+        width: 36px;
+    }
+}
