@@ -1,5 +1,6 @@
 .Sidebar {
-    width: 150px;
+    /* width: 150px; */
+    width: 15%;
     height: 100%;
     background-color: #ffff;
     position: fixed;
@@ -25,7 +26,7 @@
 }
 
 .Side_Image {
-    width: 120px !important;
+    width: 100px !important;
     /* height: 70x !important; */
     object-fit: cover;
     display: flex;

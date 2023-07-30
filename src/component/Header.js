@@ -2,10 +2,10 @@ import React from "react";
 import { PiCaretDownBold } from 'react-icons/pi';
 import { AiOutlineBell } from 'react-icons/ai';
 import '../style/componentcss/Header.css';
-import people from '../image/Frame 34780.png';
 // import refresh from '../image/refresh-circle.png';
 import { RiRefreshFill } from 'react-icons/ri';
 import { BsPeopleFill } from 'react-icons/bs';
+import { CiSearch } from 'react-icons/ci';
 
 function Header() {
     return (
@@ -25,16 +25,23 @@ function Header() {
                     <div>
                         <span className="Header_Add">Add Tenants</span>
                     </div>
-                    <div>
-                        <input />
+                    <div className="Header_Maininput">
+                        <span className="Header_inputlogo"><CiSearch /></span>
+                        <input type='text' className="Header_input" placeholder="Search" />
                     </div>
                     <div className="Header_Sidelogo">
-                        <span><BsPeopleFill />
+                        <span className="Header_Sidefirst"><BsPeopleFill />
                             {/* <img src={people} alt='people' /> */}
-                        </span> 
-                        <span><RiRefreshFill />
+                        </span>
+                        <span className="Header_Sidefirst"><RiRefreshFill />
                             {/* <img src={refresh} alt='refresh' /> */}
                         </span>
+                    </div>
+                </div>
+                <div className="Header_Center">
+                    <div className="Header_inputmain">
+                        <span className="Header_inputlogo"><CiSearch /></span>
+                        <input type='text' className="Header_input" placeholder="Search" />
                     </div>
                 </div>
             </div>

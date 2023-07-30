@@ -1,0 +1,44 @@
+.Level {
+    width: 100%;
+}
+
+.Level_Body {
+    width: 350px;
+    height: 35px;
+    margin: 15px auto;
+}
+
+.Level_img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    
+    .Level_Body {
+        width: 300px;
+        height: 30px;
+    }
+}
+
+
+@media screen and (min-width:300px) and (max-width:768px) {
+    
+    .Level {
+        width: 78%;
+        margin-left: auto;
+    }
+
+    .Level_Body {
+        width: 200px;
+        height: 22px;
+        margin: 8px auto;
+    }
+
+    .Level_img {
+        width: 100%;
+        height: 100%;
+        /* object-fit: cover; */
+    }
+}
