@@ -1,0 +1,89 @@
+.Property {
+    width: 70%;
+    margin: 12px auto;
+}
+
+.Property_Assign {
+    font-weight: 500;
+}
+
+.Property_Data {
+    margin: 25px auto;
+}
+
+.Property_Option {
+    width: 100%;
+    display: block;
+    padding: 7px 15px;
+    margin: 15px 0px;
+    font-size: 13px;
+    border: 1px solid rgb(245, 181, 181);
+    border-radius: 5px;
+    outline: none;
+}
+
+.Property_num,
+.Property_cities,
+.Property_count {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Property_box {
+    width: 48%;
+    margin: 10px 0px;
+}
+
+.Property_No,
+.Property_Street,
+.Property_City,
+.Property_Province,
+.Property_Country,
+.Property_Code {
+    width: 100%;
+    display: block;
+    padding: 7px 20px;
+    border: 1px solid rgb(245, 181, 181);
+    border-radius: 5px;
+    outline: none;
+}
+
+.Property_Button {
+    width: 55%;
+    display: block;
+    border: 1px solid rgb(245, 181, 181);
+    border-radius: 7px;
+    color: #ffffff;
+    background-color: #DB1516;
+    outline: none;
+    padding: 10px 0px;
+    margin: 10px auto;
+}
+
+.show {
+    display: none;
+    font-size: 15px;
+    color: red;
+}
+
+
+@media screen and (min-width: 769px) and (max-width:1024px ) {
+    
+    .Property {
+        width: 85%;
+    }
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width:768px ) {
+
+    .Property {
+        width: 85%;
+    }
+
+    .Property_Button {
+        width: 80%;
+    }
+
+}

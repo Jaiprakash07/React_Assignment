@@ -4,18 +4,18 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./component/Header";
 import Sidebar from './component/Sidebar';
 import Tenantfirst from './page/Tenantfirst';
-import Level from './component/Level';
+import Tenantsecond from './page/Tenantsecond';
+import Tenantthird from './page/Tenantthird';
 
 function App() {
   return (
     <>
       <Header />
       <Sidebar />
-      <Level />
       <Routes>
         <Route index element={<Tenantfirst />} />
-        {/* <Route path='/Tenantsecond' element={<Tenantsecond />} /> */}
-        {/* <Route path='/Tenantthird' element={<Tenantthird />} /> */}
+        <Route path='/Tenantsecond' element={<Tenantsecond />} />
+        <Route path='/Tenantthird' element={<Tenantthird />} />
       </Routes>
     </>
   );

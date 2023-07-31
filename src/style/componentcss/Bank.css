@@ -1,0 +1,134 @@
+.Bank {
+    width: 70%;
+    margin: 12px auto;
+}
+
+.Bank_Detail {
+    font-weight: 500;
+}
+
+.Bank_Data {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.Datas {
+    margin-top: 22px;
+}
+
+.Bank_Box {
+    width: 100%;
+}
+
+.Bank_Accname,
+.Bank_Acctype,
+.Bank_Name,
+.Bank_Number,
+.Bank_Transit,
+.Bank_Accnum {
+    width: 90%;
+    padding: 7px 15px;
+    border: 1px solid rgb(245, 181, 181);
+    border-radius: 5px;
+    margin: 4px auto;
+    outline: none;
+}
+
+.Bank_radio {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+
+#Cash,
+#Card,
+#Online {
+    margin-right: 5px;
+}
+
+.Bank_Final {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.Bank_Skip,
+.Bank_Save {
+    width: 90%;
+    color: #ffffff;
+    background-color: #DB1516;
+    padding: 10px 10px;
+    border: 1px solid rgb(245, 181, 181);
+    border-radius: 7px;
+    outline: none;
+}
+
+.Bank_Skip {
+    background: #878787;
+}
+
+
+@media screen and (min-width:769px) and (max-width: 1024px) {
+
+    .Bank {
+        width: 85%;
+    }
+}
+
+
+@media screen and (min-width:300px) and (max-width: 768px) {
+
+    .Bank {
+        width: 85%;
+    }
+
+    .Bank_Final {
+        width: 80%;
+    }
+
+    .Bank_radio {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px auto;
+    }
+
+    #Cash,
+    #Card,
+    #Online {
+        margin-right: 5px;
+    }
+
+    .Bank_Accname,
+    .Bank_Acctype,
+    .Bank_Name,
+    .Bank_Number,
+    .Bank_Transit,
+    .Bank_Accnum {
+        width: 100%;
+        display: block;
+        width: 100%;
+    }
+
+    .Bank_Box {
+        margin: 4px auto;
+    }
+
+    .Bank_Data {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 2.5px auto;
+        /* margin-top: 10px; */
+    }
+
+    .Datas {
+        padding-top: 15px;
+    }
+
+
+}

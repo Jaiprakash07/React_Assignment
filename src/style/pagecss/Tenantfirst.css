@@ -1,0 +1,38 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    .personal,
+    .photo {
+        height: 460px !important;
+    }
+
+    .personal {
+        width: 50% !important;
+    }
+
+    .photo {
+        width: 35% !important;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width:768px) {
+    
+    .first_box {
+        width: 78% !important;
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        margin-left: auto !important;
+    }
+
+    .personal,
+    .photo {
+        width: 85% !important;
+        height: 520px !important;
+        margin: 15px auto;
+    }
+
+    .photo {
+        height: 450px !important;
+    }
+
+}

@@ -1,0 +1,74 @@
+.Upload {
+    width: 85%;
+    font-weight: 500;
+    margin: 12px auto;
+}
+
+.photoed {
+    width: 85%;
+    height: 150px;
+    display: block;
+    border-radius: 15px;
+    background-image: url(/src/image/Group\ 34754.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-position: center;
+    object-fit: cover;
+    margin: 10px auto;
+}
+
+.document {
+    margin-top: 30px;
+}
+
+input[type='file'] {
+    display: none;
+}
+
+.Identity,
+.Certificate {
+    width: 85%;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid rgb(245, 181, 181);
+    border-radius: 5px;
+    margin: 15px auto;
+    padding: 4px 0px;
+}
+
+label i {
+    margin-right: 7px;
+}
+
+.submit {
+    width: 60%;
+    display: block;
+    color: #ffffff;
+    background: #DB1516;
+    border-radius: 7px;
+    border: none;
+    padding: 10px 10px;
+    margin: 30px auto;
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    .submit{
+        width: 60%;
+        margin: 22px auto;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width:768px) {
+    
+    .Upload {
+        width: 85%;
+    }
+
+    .submit {
+        width: 65%;
+    }
+}

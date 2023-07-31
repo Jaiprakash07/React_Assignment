@@ -1,0 +1,104 @@
+.Personal {
+    width: 70%;
+    margin: 12px auto;
+}
+
+.details {
+    font-weight: 500;
+}
+
+.personal_data {
+    margin: 25px auto;
+}
+
+.input {
+    width: 97%;
+    display: block;
+    padding: 7px 15px;
+    margin: 15px 0px;
+    font-size: 13px;
+    color: rgb(0, 0, 0) !important;
+    border: 1px solid rgb(245, 181, 181);
+    border-radius: 5px;
+    outline: none;
+}
+
+.inputed {
+    width: 46.5%;
+    padding: 7px 15px;
+    margin: 6px 0px;
+    margin-right: 15px;
+    font-size: 13px;
+    border: 1px solid rgb(245, 181, 181);
+    border-radius: 5px;
+    outline: none;
+}
+
+.inputeds {
+    width: 46.5%;
+    padding: 7px 15px;
+    margin: 10px 0px;
+    margin: 0px;
+    font-size: 13px;
+    border: 1px solid rgb(245, 181, 181);
+    border-radius: 5px;
+    outline: none;
+}
+
+.input_width {
+    width: 46.5%;
+    font-size: 13px;
+    padding: 7px 15px;
+}
+
+.input_submit {
+    width: 55%;
+    display: block;
+    font-size: 13px;
+    padding: 10px 0px;
+    margin: 30px auto;
+    border: 1px solid rgb(245, 181, 181);
+    border-radius: 7px;
+    color: #ffffff;
+    background-color: #DB1516;
+}
+
+.show {
+    display: none;
+    font-size: 15px;
+    color: red;
+}
+
+.Tenantfirst_but {
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    .Personal {
+        width: 85%;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width:768px) {
+    
+    .Personal {
+        width: 85%;
+    }
+
+    .inputed {
+        width: 97%;
+        display: block;
+    }
+
+    .inputeds {
+        width: 97%;
+        margin: 7px 0px;
+    }
+
+    .input_submit {
+        width: 80%;
+    }
+}
